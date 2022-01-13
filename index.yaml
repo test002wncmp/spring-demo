@@ -2,10 +2,10 @@ apiVersion: v1
 entries:
   spring-demo-helm:
   - apiVersion: v2
-    appVersion: 1.16.1
-    created: "2022-01-12T20:34:38.605330118+05:30"
+    appVersion: 1.16.0
+    created: "2022-01-13T17:24:13.603040881+05:30"
     description: A Helm chart for Kubernetes
-    digest: 5caa2f9fa7e9611e635a7553a8914f1b054997b4c953b75972247b81f8c365e1
+    digest: ae7f72ac6c74e5e4f9097eebbfc7ee0b3b4a63df6e78b7d3dd1c4df1741b7c17
     name: spring-demo-helm
     type: application
     urls:
@@ -13,7 +13,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-01-12T20:34:38.604609568+05:30"
+    created: "2022-01-13T17:24:13.600904962+05:30"
     description: A Helm chart for Kubernetes
     digest: b5e09422a0bccde2857dd66d1c68607912f74faa5e405ccef80c2555eac55c93
     name: spring-demo-helm
@@ -21,4 +21,4 @@ entries:
     urls:
     - spring-demo-helm-0.1.0.tgz
     version: 0.1.0
-generated: "2022-01-12T20:34:38.603844027+05:30"
+generated: "2022-01-13T17:24:13.597858853+05:30"
