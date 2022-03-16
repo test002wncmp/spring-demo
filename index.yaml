@@ -5,7 +5,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 8.0.28
-    created: "2022-03-16T14:09:16.681909882+05:30"
+    created: "2022-03-16T14:12:07.776974012+05:30"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -34,10 +34,44 @@ entries:
     urls:
     - mysql-8.8.26.tgz
     version: 8.8.26
+  mysql-db:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 8.0.28
+    created: "2022-03-16T14:12:07.788097561+05:30"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: MySQL is a fast, reliable, scalable, and easy to use open source
+      relational database system. Designed to handle mission-critical, heavy-load
+      production applications.
+    digest: 432a3b92b9a35398dbda58932bab58f9a55482523cdb6314974fe84fcdb604a1
+    home: https://github.com/bitnami/charts/tree/master/bitnami/mysql
+    icon: https://bitnami.com/assets/stacks/mysql/img/mysql-stack-220x234.png
+    keywords:
+    - mysql
+    - database
+    - sql
+    - cluster
+    - high availability
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: mysql-db
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mysql
+    - https://mysql.com
+    urls:
+    - mysql-db-8.8.26.tgz
+    version: 8.8.26
   spring-demo-helm:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-03-16T14:09:16.683613623+05:30"
+    created: "2022-03-16T14:12:07.791490696+05:30"
     description: A Helm chart for Kubernetes
     digest: 89153c8d9ace0104f42c1288acce62c04a4221dc63d1b98af8d4aabe5595642b
     name: spring-demo-helm
@@ -47,7 +81,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-03-16T14:09:16.682804386+05:30"
+    created: "2022-03-16T14:12:07.78976268+05:30"
     description: A Helm chart for Kubernetes
     digest: 4d88425711db281bd688cc8f55db9b5b4498fd535a8b780a94553061f6e8156f
     name: spring-demo-helm
@@ -55,4 +89,4 @@ entries:
     urls:
     - spring-demo-helm-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-16T14:09:16.674617033+05:30"
+generated: "2022-03-16T14:12:07.76278624+05:30"

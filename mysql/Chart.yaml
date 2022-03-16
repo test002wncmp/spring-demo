@@ -21,7 +21,7 @@ keywords:
 maintainers:
 - email: containers@bitnami.com
   name: Bitnami
-name: mysql
+name: mysql-db
 sources:
 - https://github.com/bitnami/bitnami-docker-mysql
 - https://mysql.com
