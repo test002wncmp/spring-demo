@@ -5,7 +5,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 8.0.28
-    created: "2022-03-16T16:09:07.254698318+05:30"
+    created: "2022-03-16T16:13:55.39227164+05:30"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -39,7 +39,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 8.0.28
-    created: "2022-03-16T16:09:07.258010163+05:30"
+    created: "2022-03-16T16:13:55.395515523+05:30"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -71,7 +71,7 @@ entries:
   spring-demo-helm:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-03-16T16:09:07.259046848+05:30"
+    created: "2022-03-16T16:13:55.396490918+05:30"
     description: A Helm chart for Kubernetes
     digest: 89153c8d9ace0104f42c1288acce62c04a4221dc63d1b98af8d4aabe5595642b
     name: spring-demo-helm
@@ -81,7 +81,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-03-16T16:09:07.25856457+05:30"
+    created: "2022-03-16T16:13:55.396021394+05:30"
     description: A Helm chart for Kubernetes
     digest: 4d88425711db281bd688cc8f55db9b5b4498fd535a8b780a94553061f6e8156f
     name: spring-demo-helm
@@ -92,7 +92,17 @@ entries:
   spring-sample-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-03-16T16:09:07.259557199+05:30"
+    created: "2022-03-16T16:13:55.397464496+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 2d01b25037ad3d75d657dcfbdf29b59dcb2b957c175e5733ef9b5a182ac0c30a
+    name: spring-sample-app
+    type: application
+    urls:
+    - spring-sample-app-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-03-16T16:13:55.396981711+05:30"
     description: A Helm chart for Kubernetes
     digest: e6d87674525408c742601d1afb2e57b5aeee073e31c1cbb690bedec766a2918b
     name: spring-sample-app
@@ -100,4 +110,4 @@ entries:
     urls:
     - spring-sample-app-0.1.1.tgz
     version: 0.1.1
-generated: "2022-03-16T16:09:07.250058604+05:30"
+generated: "2022-03-16T16:13:55.387836512+05:30"
