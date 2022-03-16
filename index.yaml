@@ -5,7 +5,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 8.0.28
-    created: "2022-03-16T14:17:39.694168663+05:30"
+    created: "2022-03-16T14:20:53.282268508+05:30"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -37,7 +37,7 @@ entries:
   spring-demo-helm:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-03-16T14:17:39.697679139+05:30"
+    created: "2022-03-16T14:20:53.285632917+05:30"
     description: A Helm chart for Kubernetes
     digest: 89153c8d9ace0104f42c1288acce62c04a4221dc63d1b98af8d4aabe5595642b
     name: spring-demo-helm
@@ -47,7 +47,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-03-16T14:17:39.695909463+05:30"
+    created: "2022-03-16T14:20:53.283964437+05:30"
     description: A Helm chart for Kubernetes
     digest: 4d88425711db281bd688cc8f55db9b5b4498fd535a8b780a94553061f6e8156f
     name: spring-demo-helm
@@ -55,4 +55,15 @@ entries:
     urls:
     - spring-demo-helm-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-16T14:17:39.678345612+05:30"
+  spring-sample-app:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-03-16T14:20:53.287465774+05:30"
+    description: A Helm chart for Kubernetes
+    digest: b0c95be7cb95d3beeeeac09c029b01e9c71123128e38cb56af7c7b30fb99b260
+    name: spring-sample-app
+    type: application
+    urls:
+    - spring-sample-app-0.1.1.tgz
+    version: 0.1.1
+generated: "2022-03-16T14:20:53.267058915+05:30"
