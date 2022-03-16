@@ -16,7 +16,7 @@ fullnameOverride: ""
 
 env:
   - name: SPRING_DATASOURCE_URL
-    value: "jdbc:mysql://mysql:3306/my_database"
+    value: "jdbc:mysql://mysql-db-mysql-database:3306/my_database"
   - name: "SPRING_DATASOURCE_USERNAME"
     value: "root"
   - name: "SPRING_DATASOURCE_PASSWORD"
