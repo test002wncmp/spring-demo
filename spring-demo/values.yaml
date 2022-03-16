@@ -55,7 +55,7 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: spring-demo-helm.$DNS_NAME
+    - host: spring-sample-app.$DNS_NAME
       paths:
         - path:
           pathType: ImplementationSpecific
