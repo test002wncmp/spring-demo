@@ -5,7 +5,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 8.0.28
-    created: "2022-06-01T17:15:50.33816684+05:30"
+    created: "2022-06-01T17:33:43.300281271+05:30"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -39,7 +39,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 8.0.28
-    created: "2022-06-01T17:15:50.342512085+05:30"
+    created: "2022-06-01T17:33:43.303823412+05:30"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -71,7 +71,7 @@ entries:
   spring-demo-helm:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-01T17:15:50.343736386+05:30"
+    created: "2022-06-01T17:33:43.304713954+05:30"
     description: A Helm chart for Kubernetes
     digest: 89153c8d9ace0104f42c1288acce62c04a4221dc63d1b98af8d4aabe5595642b
     name: spring-demo-helm
@@ -81,7 +81,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-01T17:15:50.343175842+05:30"
+    created: "2022-06-01T17:33:43.304269518+05:30"
     description: A Helm chart for Kubernetes
     digest: 4d88425711db281bd688cc8f55db9b5b4498fd535a8b780a94553061f6e8156f
     name: spring-demo-helm
@@ -92,9 +92,19 @@ entries:
   spring-sample-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-01T17:15:50.345666533+05:30"
+    created: "2022-06-01T17:33:43.30691798+05:30"
     description: A Helm chart for Kubernetes
-    digest: 65f9569c3c93ea68d7b92123ac81cfcc4d8b5bc95c538b984555a217bba53faa
+    digest: e7830b9e57d9a5fb7c0011f17ab58bd608233dfb0eae85abfeb9f303464d3a8c
+    name: spring-sample-app
+    type: application
+    urls:
+    - spring-sample-app-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-01T17:33:43.306484225+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 65a5207e0f94323d8f2434ae158d2fd0e5de5f1cd2f2e113b5a60c0cd4d960a2
     name: spring-sample-app
     type: application
     urls:
@@ -102,7 +112,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-01T17:15:50.345204847+05:30"
+    created: "2022-06-01T17:33:43.306044193+05:30"
     description: A Helm chart for Kubernetes
     digest: a018c53ca782c74cba7539cbd614481466e1c604c13e0218cc8ab820ee83c1ff
     name: spring-sample-app
@@ -112,7 +122,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-01T17:15:50.344667111+05:30"
+    created: "2022-06-01T17:33:43.305594993+05:30"
     description: A Helm chart for Kubernetes
     digest: 99039895845cef6547f8f7ffcdfffca6e20b699f52ad4a8fb9acd34ef675eece
     name: spring-sample-app
@@ -122,7 +132,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-01T17:15:50.34419767+05:30"
+    created: "2022-06-01T17:33:43.305150963+05:30"
     description: A Helm chart for Kubernetes
     digest: e6d87674525408c742601d1afb2e57b5aeee073e31c1cbb690bedec766a2918b
     name: spring-sample-app
@@ -130,4 +140,4 @@ entries:
     urls:
     - spring-sample-app-0.1.1.tgz
     version: 0.1.1
-generated: "2022-06-01T17:15:50.334418881+05:30"
+generated: "2022-06-01T17:33:43.297055441+05:30"
