@@ -9,7 +9,7 @@ image:
   repository: gcr.io/ahasaqa/spring-demo
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  tag: "1.0.3"
 
 imagePullSecrets: 
   - name: gcr-key-wn-live-qa
@@ -17,11 +17,15 @@ nameOverride: ""
 fullnameOverride: ""
 
 env:
-  - name: SPRING_DATASOURCE_URL
-    value: "jdbc:mysql://mysql-db-mysql-database:3306/my_database"
-  - name: "SPRING_DATASOURCE_USERNAME"
+  - name: DATASOURCE_HOST
+    value: "mysql-database-mysql-db"
+  - name: DATASOURCE_PORT
+    value: "3306"
+  - name: DATASOURCE_DB
+    value: "my_database"
+  - name: "DATASOURCE_USERNAME"
     value: "root"
-  - name: "SPRING_DATASOURCE_PASSWORD"
+  - name: "DATASOURCE_PASSWORD"
     value: "root" 
 
 serviceAccount:
