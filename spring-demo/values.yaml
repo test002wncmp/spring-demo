@@ -6,10 +6,10 @@ dns: "abc.com"
 replicaCount: 1
 
 image:
-  repository: gcr.io/ahasaqa/spring-demo
+  repository: gcr.io/ahasaqa/cloud-portal-scraper:1.0.1
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "1.0.3"
+  tag: "1.0.1"
 
 imagePullSecrets: 
   - name: gcr-key-wn-live-qa
